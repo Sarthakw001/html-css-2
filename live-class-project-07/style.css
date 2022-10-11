@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    font-family: 'Fredoka One', cursive;
+}
+.active-item{
+    color: #fe5e35;
+}
+.left-section h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.action-btn{
+    color: white;
+    background-color: #fe5e35;
+    padding: 8px 25px;
+    border-radius: 60px;
+}
+.discount{
+    position: absolute;
+    top: 295px;
+    left: 120px;
+    z-index: 1;
+}
+.discount-content{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 320px;
+    left: 145px;
+    z-index: 2;
+}
+.discount-content h1{
+    font-size: 50px;
+}
+.right-section .action-btn{
+    position: relative;
+    top: 497px;
+    left: 47%;
+}
